@@ -1,0 +1,16 @@
+{
+  "name": "@wangwcq/ys-rn-kit",
+  "version": "1.0.0",
+  "description": "React Native kit",
+  "main": "index.js",
+  "author": "Chris Wang",
+  "license": "MIT",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "lodash": "^4.17.15",
+    "react-native": "^0.61.2",
+    "react-redux": "^7.1.1",
+    "redux": "^4.0.4",
+    "redux-persist": "^6.0.0"
+  }
+}
