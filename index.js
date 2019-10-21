@@ -3,7 +3,6 @@ import { AppRegistry } from 'react-native';
 import { Provider } from 'react-redux';
 import { PersistGate } from 'redux-persist/integration/react';
 import Loading from './screens/Loading';
-import ThemedApp from './ThemedApp';
 import { consts, initConsts } from './utils/consts';
 
 import _ from 'lodash';
@@ -39,7 +38,7 @@ const register = (options = {}) => {
           loading={Loading}
           persistor={persistor}
         >
-          <ThemedApp/>
+          <Loading />
         </PersistGate>
       </Provider>
     );
